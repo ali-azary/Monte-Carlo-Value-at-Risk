@@ -30,7 +30,7 @@ Value at Risk (VaR) is a risk assessment measure that quantifies the potential l
 time horizon at a given confidence level. In the context of the GBM model, VaR is calculated based on the simulated final prices.
  The $1 - \alpha$ quantile of these prices represents the maximum potential loss with a confidence level of $\alpha$.
 
-$\operatorname{VaR}_\alpha(X)=-\inf \left\{x \in \mathbb{R}: F_X(x)>\alpha\right\}=F_Y^{-1}(1-\alpha)$
+$\text{VaR}_\alpha(X)=-\inf \left\{x \in \text{R}: F_X(x)>\alpha\right\}=F_Y^{-1}(1-\alpha)$
 
 
 <h3>Conditional Value at Risk (CVaR)</h3>

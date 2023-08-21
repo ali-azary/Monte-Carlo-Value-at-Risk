@@ -8,9 +8,7 @@ influenced by drift and volatility.
 <br>
 The GBM model is represented by the following stochastic differential equation:
 
-\[
-dS_t = \mu S_t dt + \sigma S_t dW_t
-\]
+$dS_t = \mu S_t dt + \sigma S_t dW_t$
 <br>
 where:<br>
 - \(S_t\) is the stock price at time \(t\)<br>

@@ -39,7 +39,7 @@ Conditional Value at Risk (CVaR), also known as expected shortfall, provides an 
  It represents the average value of the losses that exceed the VaR at a specified confidence level. Mathematically, CVaR is 
  calculated as the average of all prices that fall below the VaR.
 
-$\mathrm{ES}_\alpha(X)=-\frac{1}{\alpha} \int_0^\alpha \operatorname{VaR}_\gamma(X) d \gamma$
+$ES_\alpha(X)=-\frac{1}{\alpha} \int_0^\alpha VaR_\gamma(X) d \gamma$
 
 <h3>Python Implementation</h3>
 
